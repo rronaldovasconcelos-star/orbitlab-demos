@@ -1,0 +1,216 @@
+{
+  "instancia": "demo-pet",
+  "empresa": {
+    "nome": "PetCustomize",
+    "dono": "Cipriano",
+    "cidade": "Belo Horizonte",
+    "slogan": "Comedouros e bebedouros personalizados com o nome do seu pet",
+    "sobre": "Cada peça é personalizada à mão: você escolhe a cor, a letra e o desenho.",
+    "prazo": "5 a 7 dias úteis (a personalização é feita à mão, peça por peça)",
+    "envio": "Correios ou transportadora para todo o Brasil. Entrega em Belo Horizonte e região metropolitana em até 2 dias úteis.",
+    "frete": "Frete grátis nas compras acima de R$ 199. Abaixo disso, o frete é calculado pelo CEP.",
+    "pagamento": "Pix (5% de desconto), cartão em até 6x sem juros, ou boleto.",
+    "garantia": "Se a peça chegar com qualquer defeito, a gente refaz sem custo."
+  },
+  "agente": {
+    "nome": "Sara",
+    "voz": "XrExE9yKIg1WjnnlVkGX",
+    "tom": "calorosa, educada, atenciosa e apaixonada por bichos"
+  },
+  "itens": [
+    {
+      "id": "P01",
+      "nome": "Comedouro Duplo Elevado — MDF Laqueado",
+      "resumo": "O mais vendido. Base elevada em MDF laqueado com o nome do pet gravado a laser, e dois potes de inox removíveis (comida e água).",
+      "detalhe": "MDF laqueado + potes de inox 304 removíveis",
+      "opcoes": [
+        {
+          "label": "P",
+          "para": "gatos e cães até 8 kg",
+          "preco": 129.0
+        },
+        {
+          "label": "M",
+          "para": "cães de 8 a 20 kg",
+          "preco": 159.0
+        },
+        {
+          "label": "G",
+          "para": "cães acima de 20 kg",
+          "preco": 189.0
+        }
+      ],
+      "variacoes": [
+        "Branco",
+        "Preto",
+        "Rosa",
+        "Azul",
+        "Madeira natural"
+      ],
+      "emoji": "🐶",
+      "cor": "#3B82F6"
+    },
+    {
+      "id": "P02",
+      "nome": "Bacia de Cerâmica Pintada à Mão",
+      "resumo": "Cerâmica esmaltada com o nome do pet pintado à mão e uma patinha. Pode ir na lava-louças e no micro-ondas.",
+      "detalhe": "Cerâmica esmaltada, pintura atóxica",
+      "opcoes": [
+        {
+          "label": "P",
+          "para": "gatos e cães pequenos (300 ml)",
+          "preco": 89.0
+        },
+        {
+          "label": "M",
+          "para": "cães médios (700 ml)",
+          "preco": 109.0
+        }
+      ],
+      "variacoes": [
+        "Branco",
+        "Bege",
+        "Verde-menta",
+        "Terracota"
+      ],
+      "emoji": "🎨",
+      "cor": "#14B8A6"
+    },
+    {
+      "id": "P03",
+      "nome": "Kit Completo PetCustomize",
+      "resumo": "O combo que mais sai: comedouro duplo elevado + porta-ração de 3 kg + tapete de silicone, todos com o nome do pet e no mesmo estilo.",
+      "detalhe": "MDF laqueado, inox e silicone",
+      "opcoes": [
+        {
+          "label": "Único",
+          "para": "cães e gatos de qualquer porte",
+          "preco": 249.0
+        }
+      ],
+      "variacoes": [
+        "Branco",
+        "Preto",
+        "Rosa",
+        "Azul"
+      ],
+      "emoji": "🎁",
+      "cor": "#8B5CF6"
+    },
+    {
+      "id": "P04",
+      "nome": "Comedouro Elevado Inox + Base de Madeira",
+      "resumo": "Linha premium. Madeira maciça com acabamento fosco e o nome gravado em baixo-relevo. Fica lindo em apartamento.",
+      "detalhe": "Madeira maciça + potes de inox 304",
+      "opcoes": [
+        {
+          "label": "M",
+          "para": "cães de 8 a 20 kg",
+          "preco": 189.0
+        },
+        {
+          "label": "G",
+          "para": "cães acima de 20 kg",
+          "preco": 219.0
+        }
+      ],
+      "variacoes": [
+        "Madeira natural",
+        "Nogueira",
+        "Preto fosco"
+      ],
+      "emoji": "✨",
+      "cor": "#B45309"
+    },
+    {
+      "id": "P05",
+      "nome": "Comedouro Lento (Anti-Glutão)",
+      "resumo": "Para o pet que come rápido demais e passa mal. Os relevos internos obrigam ele a comer devagar. Leva o nome gravado na borda.",
+      "detalhe": "Plástico atóxico com base antiderrapante",
+      "opcoes": [
+        {
+          "label": "P",
+          "para": "gatos e cães pequenos",
+          "preco": 79.0
+        },
+        {
+          "label": "M",
+          "para": "cães médios e grandes",
+          "preco": 99.0
+        }
+      ],
+      "variacoes": [
+        "Rosa",
+        "Azul",
+        "Cinza",
+        "Verde"
+      ],
+      "emoji": "🐾",
+      "cor": "#EC4899"
+    },
+    {
+      "id": "P06",
+      "nome": "Comedouro Inclinado para Gatos",
+      "resumo": "Inclinado de propósito: o gato come sem forçar o pescoço e sem sujar os bigodes. Cerâmica com o nome pintado.",
+      "detalhe": "Cerâmica esmaltada",
+      "opcoes": [
+        {
+          "label": "Único",
+          "para": "gatos",
+          "preco": 119.0
+        }
+      ],
+      "variacoes": [
+        "Branco",
+        "Bege",
+        "Verde-menta"
+      ],
+      "emoji": "🐱",
+      "cor": "#F59E0B"
+    }
+  ],
+  "faq": [
+    {
+      "p": "Quanto tempo demora para ficar pronto?",
+      "r": "De 5 a 7 dias úteis, porque a personalização é feita à mão, peça por peça. Depois disso entra o prazo do envio."
+    },
+    {
+      "p": "Dá para colocar o nome do pet?",
+      "r": "Sim, em todos os produtos. Você escolhe a cor e o estilo da letra, e ainda pode incluir uma patinha, um coração ou um desenho da raça."
+    },
+    {
+      "p": "Vocês entregam em todo o Brasil?",
+      "r": "Sim, enviamos para todo o Brasil pelos Correios ou transportadora. Em Belo Horizonte e região a entrega sai em até 2 dias úteis."
+    },
+    {
+      "p": "Pode ir na lava-louças?",
+      "r": "As peças de cerâmica e os potes de inox, sim. As bases de MDF e madeira devem ser limpas só com pano úmido."
+    },
+    {
+      "p": "E se eu não gostar ou vier com defeito?",
+      "r": "A gente refaz a peça sem custo nenhum. Como é personalizada, não trabalhamos com devolução por arrependimento, mas qualquer defeito é por nossa conta."
+    }
+  ],
+  "regras": [
+    "O NOME DO PET É O CORAÇÃO DA VENDA: pergunte nas duas primeiras mensagens, de forma carinhosa, e use o nome em quase toda resposta ('o comedouro do Thor', nunca 'o comedouro do seu cachorro').",
+    "Faça o cliente imaginar a peça pronta: 'já imaginou o Thor comendo no dele, com o nome gravado na frente?'. É isso que fecha a venda.",
+    "Pergunte a raça ou o porte — você precisa disso para indicar o tamanho certo, e é a deixa para elogiar o bicho.",
+    "Elogie o pet como quem ama animais: específico, nunca genérico. Golden é um amor, siamês é elegante, vira-lata é o mais esperto.",
+    "A personalização (nome, cor, letra) está inclusa no preço — diga isso, é o que diferencia vocês.",
+    "Se pedir desconto, ofereça os 5% do Pix. Além disso, chame o Cipriano."
+  ],
+  "acoes": {
+    "catalogo": true,
+    "fotos": true,
+    "pedido": true,
+    "agendamento": false
+  },
+  "ficha": [
+    "cliente",
+    "pet",
+    "especie",
+    "raca_porte",
+    "interesse"
+  ],
+  "avisar_em": "5531984367833"
+}
