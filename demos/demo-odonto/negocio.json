@@ -1,216 +1,218 @@
 {
   "empresa": {
     "nome": "Sorriso Savassi Odontologia",
-    "dono": "Dra. Camila Andrade",
+    "dono": "Dra. Camila Nogueira",
     "cidade": "Belo Horizonte",
-    "slogan": "Cuidado de verdade, sorriso pra vida toda",
-    "sobre": "Clínica odontológica no bairro Savassi, em BH, com mais de 12 anos de atendimento humanizado. Estrutura completa para toda a família, do check-up de rotina a tratamentos estéticos e reabilitação com implantes. Equipe de dentistas especialistas em cada área, atendimento acolhedor e sem pressa de consultório de fila.",
-    "prazo": "Avaliação inicial em até 48h; tratamentos com cronograma definido na primeira consulta",
-    "envio": "Atendimento presencial na clínica, Rua Pernambuco, Savassi, BH",
-    "frete": "Não se aplica (serviço presencial)",
-    "pagamento": "Pix, cartão em até 12x, boleto e carnê próprio da clínica",
-    "garantia": "Garantia de 1 ano em restaurações e próteses; acompanhamento pós-tratamento incluso"
+    "slogan": "Seu sorriso merece cuidado de verdade",
+    "sobre": "Clínica odontológica na Savassi com mais de 12 anos de atendimento em BH, especializada em estética, ortodontia e tratamentos gerais, com equipe multidisciplinar e ambiente acolhedor para toda a família.",
+    "prazo": "Avaliação inicial em até 48h, tratamentos com cronograma definido na consulta",
+    "envio": "Atendimento presencial na clínica, Rua Sergipe, Savassi",
+    "frete": "Não se aplica - atendimento presencial",
+    "pagamento": "Cartão em até 12x, PIX com desconto, boleto e convênios odontológicos aceitos",
+    "garantia": "Garantia de 1 ano em restaurações e próteses, revisão gratuita em caso de qualquer desconforto"
   },
   "agente": {
     "nome": "Fernanda",
-    "tom": "Acolhedor, calmo e discreto, como uma recepcionista de confiança que tira o medo do paciente e explica tudo com paciência, sem parecer vendedora agressiva",
+    "tom": "acolhedor, tranquilizador e discreto, como uma recepcionista experiente que deixa o paciente à vontade",
     "voz": "XrExE9yKIg1WjnnlVkGX"
   },
   "itens": [
     {
       "id": "avaliacao",
-      "nome": "Avaliação + Check-up Completo",
-      "resumo": "Consulta inicial com raio-x e plano de tratamento personalizado",
-      "detalhe": "Primeira consulta com exame clínico completo, raio-x panorâmico quando necessário e explicação detalhada de tudo que foi encontrado, com plano de tratamento e orçamento sem compromisso.",
+      "nome": "Consulta de Avaliação",
+      "resumo": "Exame completo e plano de tratamento personalizado",
+      "detalhe": "Consulta inicial com raio-x panorâmico se necessário, avaliação clínica completa e montagem de plano de tratamento sem compromisso.",
       "opcoes": [
         {
-          "label": "Avaliação completa (1ª consulta)",
-          "para": "avaliação inicial",
+          "label": "Avaliação completa",
+          "para": "1 pessoa",
           "preco": 120
-        },
-        {
-          "label": "Avaliação + raio-x panorâmico",
-          "para": "avaliação com exame de imagem",
-          "preco": 180
         }
       ],
-      "variacoes": [],
-      "emoji": "🪥",
-      "cor": "#2EC4B6"
+      "variacoes": [
+        "Avaliação simples",
+        "Avaliação com raio-x"
+      ],
+      "emoji": "🦷",
+      "cor": "#2E86AB"
     },
     {
       "id": "limpeza",
       "nome": "Limpeza e Profilaxia",
       "resumo": "Remoção de tártaro, polimento e aplicação de flúor",
-      "detalhe": "Limpeza profissional completa com remoção de placa e tártaro, jato de bicarbonato, polimento e aplicação de flúor. Recomendada a cada 6 meses.",
+      "detalhe": "Limpeza profissional completa com remoção de placa e tártaro, polimento dental e aplicação de flúor para fortalecimento do esmalte.",
       "opcoes": [
         {
-          "label": "Limpeza simples",
-          "para": "manutenção semestral",
-          "preco": 150
-        },
-        {
-          "label": "Limpeza + clareamento a laser (sessão única)",
-          "para": "combo estético",
-          "preco": 450
+          "label": "Sessão única",
+          "para": "1 sessão",
+          "preco": 180
         }
       ],
-      "variacoes": [],
+      "variacoes": [
+        "Com clareamento leve"
+      ],
       "emoji": "✨",
-      "cor": "#4CC9F0"
+      "cor": "#06A77D"
     },
     {
       "id": "clareamento",
       "nome": "Clareamento Dental",
-      "resumo": "Clareamento a laser no consultório ou moldeira caseira",
-      "detalhe": "Tratamento estético para deixar o sorriso mais branco e uniforme, feito com técnica segura e acompanhamento da dentista durante todo o processo.",
+      "resumo": "Clareamento a laser ou caseiro supervisionado",
+      "detalhe": "Tratamento clareador com resultados visíveis, feito em consultório com luz LED ou moldeira personalizada para uso em casa com acompanhamento.",
       "opcoes": [
         {
-          "label": "Clareamento a laser (1 sessão)",
-          "para": "resultado imediato",
-          "preco": 550
+          "label": "Clareamento em consultório",
+          "para": "1 sessão",
+          "preco": 650
         },
         {
-          "label": "Clareamento caseiro com moldeira",
-          "para": "resultado gradual em casa",
-          "preco": 480
+          "label": "Clareamento caseiro supervisionado",
+          "para": "kit completo",
+          "preco": 450
         }
       ],
-      "variacoes": [],
+      "variacoes": [
+        "Consultório",
+        "Caseiro com moldeira"
+      ],
       "emoji": "😁",
-      "cor": "#F72585"
+      "cor": "#F4A261"
+    },
+    {
+      "id": "ortodontia",
+      "nome": "Tratamento Ortodôntico",
+      "resumo": "Aparelho fixo metálico ou estético",
+      "detalhe": "Instalação e manutenção mensal de aparelho ortodôntico, com acompanhamento completo até a finalização do tratamento.",
+      "opcoes": [
+        {
+          "label": "Aparelho metálico",
+          "para": "instalação + manutenção mensal",
+          "preco": 280
+        },
+        {
+          "label": "Aparelho estético (safira)",
+          "para": "instalação + manutenção mensal",
+          "preco": 420
+        }
+      ],
+      "variacoes": [
+        "Metálico",
+        "Estético"
+      ],
+      "emoji": "🪥",
+      "cor": "#8E44AD"
     },
     {
       "id": "restauracao",
-      "nome": "Restauração Estética",
-      "resumo": "Tratamento de cáries com resina da cor do dente",
-      "detalhe": "Remoção de cárie e restauração em resina composta estética, restabelecendo função e aparência natural do dente, com garantia de 1 ano.",
+      "nome": "Restauração Dentária",
+      "resumo": "Restauração em resina para cáries ou fraturas",
+      "detalhe": "Restauração estética em resina composta, restabelecendo função e aparência do dente afetado por cárie ou desgaste.",
       "opcoes": [
         {
-          "label": "Restauração simples (1 face)",
-          "para": "dente com cárie pequena",
+          "label": "Restauração simples",
+          "para": "1 dente",
           "preco": 220
         },
         {
-          "label": "Restauração ampla (múltiplas faces)",
-          "para": "dente com maior comprometimento",
-          "preco": 380
+          "label": "Restauração extensa",
+          "para": "1 dente",
+          "preco": 350
         }
       ],
-      "variacoes": [],
-      "emoji": "🦷",
-      "cor": "#3A86FF"
+      "variacoes": [
+        "Simples",
+        "Extensa"
+      ],
+      "emoji": "🔧",
+      "cor": "#E76F51"
     },
     {
       "id": "canal",
       "nome": "Tratamento de Canal",
-      "resumo": "Endodontia completa para salvar o dente",
-      "detalhe": "Tratamento endodôntico realizado com equipamento de precisão e anestesia adequada para máximo conforto, indicado quando a cárie ou infecção chega até a polpa do dente.",
+      "resumo": "Endodontia completa para dor e infecção",
+      "detalhe": "Tratamento endodôntico completo para eliminar infecção e dor, com sessões necessárias até a finalização e posterior restauração.",
       "opcoes": [
         {
           "label": "Canal em dente anterior",
-          "para": "incisivos e caninos",
-          "preco": 650
+          "para": "tratamento completo",
+          "preco": 700
         },
         {
-          "label": "Canal em dente posterior (molar)",
-          "para": "pré-molares e molares",
+          "label": "Canal em molar",
+          "para": "tratamento completo",
           "preco": 950
         }
       ],
-      "variacoes": [],
-      "emoji": "🩺",
-      "cor": "#FB5607",
-      "unused": true
+      "variacoes": [
+        "Anterior",
+        "Molar"
+      ],
+      "emoji": "⚕️",
+      "cor": "#C1121F"
     },
     {
       "id": "implante",
       "nome": "Implante Dentário",
-      "resumo": "Reposição de dente ausente com implante de titânio",
-      "detalhe": "Implante osseointegrável de titânio com prótese sobre implante, indicado para repor um ou mais dentes perdidos, devolvendo função de mastigação e estética.",
+      "resumo": "Implante unitário com pino de titânio e coroa",
+      "detalhe": "Reposição de dente ausente com implante de titânio e coroa protética, procedimento completo com acompanhamento pós-operatório.",
       "opcoes": [
         {
           "label": "Implante unitário completo",
-          "para": "1 dente ausente",
+          "para": "1 dente",
           "preco": 2800
-        },
-        {
-          "label": "Pacote 2 implantes",
-          "para": "2 dentes ausentes",
-          "preco": 5200
         }
       ],
-      "variacoes": [],
-      "emoji": "🦿",
-      "cor": "#8338EC"
-    },
-    {
-      "id": "aparelho",
-      "nome": "Aparelho Ortodôntico",
-      "resumo": "Alinhamento dos dentes com acompanhamento mensal",
-      "detalhe": "Tratamento ortodôntico com aparelho fixo metálico ou estético, incluindo manutenção mensal e acompanhamento da evolução até a retirada.",
-      "opcoes": [
-        {
-          "label": "Aparelho metálico (instalação + manutenção mensal)",
-          "para": "tratamento convencional",
-          "preco": 220
-        },
-        {
-          "label": "Aparelho estético/safira (instalação + manutenção mensal)",
-          "para": "tratamento discreto",
-          "preco": 320
-        }
+      "variacoes": [
+        "Unitário"
       ],
-      "variacoes": [],
-      "emoji": "😬",
-      "cor": "#FFBE0B"
+      "emoji": "🦴",
+      "cor": "#264653"
     }
   ],
   "faq": [
     {
       "p": "Vocês atendem por convênio odontológico?",
-      "r": "Atendemos particular e alguns convênios selecionados. Me conta qual é o seu plano que eu confirmo certinho pra você."
+      "r": "Sim! Atendemos os principais convênios de BH. Me conta qual é o seu que eu já confirmo a cobertura."
     },
     {
       "p": "Dói fazer tratamento de canal?",
-      "r": "Fica tranquilo(a): usamos anestesia adequada e equipamento moderno, a maioria dos pacientes relata bem menos desconforto do que imagina."
+      "r": "Fica tranquilo(a) que hoje em dia o procedimento é bem confortável, feito com anestesia local e a Dra. Camila é super cuidadosa com isso."
     },
     {
       "p": "Posso parcelar o tratamento?",
-      "r": "Pode sim! Trabalhamos com cartão em até 12x, boleto e também temos carnê próprio da clínica pra facilitar."
+      "r": "Pode sim, parcelamos em até 12x no cartão, e também temos desconto especial pagando via PIX à vista."
     },
     {
-      "p": "Quanto tempo dura o clareamento?",
-      "r": "O resultado do clareamento a laser costuma durar de 1 a 2 anos, dependendo dos seus hábitos de alimentação e cuidado."
+      "p": "Quanto tempo dura o tratamento ortodôntico?",
+      "r": "Varia de pessoa pra pessoa, mas em geral fica entre 18 e 24 meses, e você acompanha a evolução a cada consulta mensal."
     },
     {
-      "p": "Vocês atendem emergência com dor?",
-      "r": "Sim, priorizamos casos de dor e encaixamos o mais rápido possível, geralmente no mesmo dia ou no dia seguinte."
+      "p": "Preciso remarcar minha consulta, tem problema?",
+      "r": "Sem problema nenhum, só peço que avise com pelo menos 24h de antecedência pra gente reorganizar a agenda direitinho."
     }
   ],
   "regras": [
-    "TIRE O MEDO ANTES DE FALAR DE PREÇO: todo paciente de dentista carrega alguma ansiedade; acolha primeiro ('fica tranquilo, vamos com calma') e só depois apresente valores.",
-    "NUNCA DIAGNOSTIQUE PELO CHAT: sintomas e queixas levam sempre à avaliação presencial ('isso a Dra. Camila precisa ver de perto pra te dar a resposta certa'), nunca prometa solução sem exame.",
-    "ANCORE NA AVALIAÇÃO, NÃO NO TRATAMENTO CARO: quando o paciente perguntar de implante ou canal direto, sempre encaminhe primeiro pra avaliação, que destrava o orçamento certo.",
-    "USE O NOME DO PACIENTE E LEMBRE A QUEIXA: pergunte logo o que está incomodando (dor, estética, rotina) e repita isso nas respostas seguintes para mostrar que está sendo ouvido.",
-    "TRANSFORME DOR EM URGÊNCIA GENTIL: para queixas de dor, reforce que quanto antes tratar, mais simples e barato costuma ser ('rapidinho a gente encaixa, antes que piore').",
-    "VENDA O PARCELAMENTO JUNTO COM O TRATAMENTO: sempre que citar valores de implante, aparelho ou canal, mencione as opções de parcelamento na mesma frase, isso reduz a objeção de preço.",
-    "REFORCE A GARANTIA E A CONTINUIDADE: mencione a garantia de 1 ano e o acompanhamento pós-tratamento como diferencial de segurança, isso pesa mais que preço na decisão final."
+    "QUEBRE O MEDO DE DENTISTA LOGO DE CARA: use frases tranquilizadoras como 'fica tranquilo(a)' e 'sem dor nenhuma' antes mesmo de falar de preço, pois medo é a maior objeção do segmento.",
+    "NUNCA DEIXE O PACIENTE SEM PLANO DE TRATAMENTO CLARO: sempre feche a conversa oferecendo a Consulta de Avaliação como porta de entrada, mesmo que ele pergunte por um procedimento específico.",
+    "VENDA CONFIANÇA NO PROFISSIONAL, NÃO SÓ O PROCEDIMENTO: mencione a experiência da Dra. Camila e o tempo de clínica (12 anos) para reforçar segurança na decisão.",
+    "ANCORE NO PARCELAMENTO PARA TRATAMENTOS CAROS: ao falar de implante ou ortodontia, sempre mencione o valor parcelado antes do valor total, reduzindo a sensação de peso no bolso.",
+    "URGÊNCIA COM DOR É PRIORIDADE ABSOLUTA: se o cliente mencionar dor, inchaço ou sangramento, ofereça encaixe rápido na agenda antes de qualquer outra explicação.",
+    "USE O NOME DO PACIENTE E CRIE PROXIMIDADE: pergunte o nome logo no início e use-o com frequência, tratando a conversa como se fosse presencial na recepção.",
+    "REFORCE A GARANTIA PARA DESTRAVAR DECISÕES: em restaurações e próteses, lembre que há garantia de 1 ano, isso reduz a insegurança de 'será que vai durar'."
   ],
   "ficha": [
-    "Queixa principal (dor, estética, rotina de check-up)",
-    "Convênio ou particular",
-    "Urgência do caso (dor ativa ou preventivo)",
-    "Tratamento de interesse (clareamento, aparelho, implante etc)",
-    "Preferência de horário para agendamento"
+    "cliente",
+    "queixa",
+    "convenio",
+    "urgencia",
+    "interesse"
   ],
-  "regras_acoes": {},
-  "instancia": "demo-odonto",
   "acoes": {
+    "agendamento": true,
+    "pedido": false,
     "catalogo": true,
-    "fotos": true,
-    "pedido": true,
-    "agendamento": false
+    "fotos": true
   },
+  "instancia": "demo-odonto",
   "avisar_em": "5531984367833"
 }
