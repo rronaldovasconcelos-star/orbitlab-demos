@@ -212,5 +212,9 @@
     "raca_porte",
     "interesse"
   ],
-  "avisar_em": "5531984367833"
+  "avisar_em": "5531984367833",
+  "painel": {
+    "url": "https://painel.orbitlab.com.br/api/ingest",
+    "secret": "13ae1327a4156a0eec9a12cc420a439f"
+  }
 }
