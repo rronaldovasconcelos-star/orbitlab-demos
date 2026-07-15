@@ -1,0 +1,85 @@
+{
+  "empresa": {
+    "nome": "Loja Teste",
+    "dono": "Fulano",
+    "cidade": "São Paulo",
+    "slogan": "Streetwear autoral",
+    "sobre": "Loja online. Site: https://lojateste.com.br (esse // não é comentário)",
+    "prazo": "3 a 5 dias úteis",
+    "envio": "Correios",
+    "frete": "Grátis acima de R$199",
+    "pagamento": "Pix ou cartão em 6x",
+    "garantia": "Troca em 7 dias"
+  },
+  "agente": {
+    "nome": "Bia",
+    "tom": "prestativa e boa de venda",
+    "voz": "XrExE9yKIg1WjnnlVkGX"
+  },
+  "itens": [
+    {
+      "id": "P01",
+      "nome": "Camiseta Premium",
+      "resumo": "Algodão pima",
+      "detalhe": "100% algodão",
+      "opcoes": [
+        {
+          "label": "P/M/G",
+          "para": "unissex",
+          "preco": 89.9
+        }
+      ],
+      "variacoes": [
+        "Preto",
+        "Branco"
+      ],
+      "emoji": "👕",
+      "cor": "#10B981"
+    },
+    {
+      "id": "P02",
+      "nome": "Moletom Oversize",
+      "resumo": "Felpudo e pesado",
+      "detalhe": "Flanelado 320g",
+      "opcoes": [
+        {
+          "label": "M/G/GG",
+          "para": "unissex",
+          "preco": 159.0
+        }
+      ],
+      "variacoes": [
+        "Cinza"
+      ],
+      "emoji": "🧥",
+      "cor": "#6366F1"
+    }
+  ],
+  "faq": [
+    {
+      "p": "Trocam tamanho?",
+      "r": "Trocamos em até 7 dias."
+    }
+  ],
+  "regras": [
+    "Nunca invente preço fora do catálogo.",
+    "Ofereça foto ao primeiro interesse."
+  ],
+  "acoes": {
+    "catalogo": true,
+    "fotos": true,
+    "pedido": true,
+    "agendamento": false
+  },
+  "ficha": [
+    "cliente",
+    "interesse",
+    "opcao"
+  ],
+  "instancia": "loja-teste",
+  "avisar_em": "5531999998888",
+  "painel": {
+    "url": "https://painel.orbitlab.com.br/api/ingest",
+    "secret": "b1c4ab1d176c63f869e80cbb528d1392"
+  }
+}
