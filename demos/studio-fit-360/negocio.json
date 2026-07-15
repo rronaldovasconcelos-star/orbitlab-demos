@@ -19,7 +19,7 @@
       "id": "P01",
       "nome": "Aula Experimental Grátis",
       "resumo": "Conheça o método sem pagar nada",
-      "detalhe": "Uma aula de 50 min com personal, para sentir a Metodologia 360",
+      "detalhe": "Uma aula de 50 min com personal, pra sentir a Metodologia 360 na prática",
       "opcoes": [
         {
           "label": "experimental",
@@ -35,7 +35,7 @@
       "id": "P02",
       "nome": "Treino Personalizado 360",
       "resumo": "O carro-chefe: treino sob medida",
-      "detalhe": "Aulas de 50 min com personal e a Metodologia 360, plano montado pro seu objetivo",
+      "detalhe": "Aulas dinâmicas de 50 min que combinam treino FUNCIONAL e MUSCULAÇÃO, com personal e a Metodologia 360, montadas pro seu objetivo",
       "opcoes": [
         {
           "label": "mensal",
@@ -49,40 +49,8 @@
     },
     {
       "id": "P03",
-      "nome": "CrossFit",
-      "resumo": "Alta intensidade em grupo",
-      "detalhe": "Aulas de CrossFit com acompanhamento profissional",
-      "opcoes": [
-        {
-          "label": "mensal",
-          "para": "condicionamento e força",
-          "preco": 0
-        }
-      ],
-      "variacoes": [],
-      "emoji": "🔥",
-      "cor": "#EF4444"
-    },
-    {
-      "id": "P04",
-      "nome": "Musculação",
-      "resumo": "Treino de força com orientação",
-      "detalhe": "Musculação com acompanhamento profissional",
-      "opcoes": [
-        {
-          "label": "mensal",
-          "para": "hipertrofia e força",
-          "preco": 0
-        }
-      ],
-      "variacoes": [],
-      "emoji": "💪",
-      "cor": "#8B5CF6"
-    },
-    {
-      "id": "P05",
-      "nome": "Programas Específicos",
-      "resumo": "Massa, emagrecimento, performance, reabilitação, melhor idade e kids",
+      "nome": "Programas por Objetivo",
+      "resumo": "Um caminho pro que você quer alcançar",
       "detalhe": "Programa montado pro seu objetivo, com apoio de fisioterapeuta e nutricionista",
       "opcoes": [
         {
@@ -101,6 +69,38 @@
       ],
       "emoji": "🎯",
       "cor": "#F59E0B"
+    },
+    {
+      "id": "P04",
+      "nome": "Acompanhamento Fisio + Nutri",
+      "resumo": "Não é só treino: é saúde completa",
+      "detalhe": "Apoio de fisioterapeuta e nutricionista junto do treino, pra treinar com segurança e resultado",
+      "opcoes": [
+        {
+          "label": "incluso no acompanhamento",
+          "para": "treinar com segurança",
+          "preco": 0
+        }
+      ],
+      "variacoes": [],
+      "emoji": "🩺",
+      "cor": "#06B6D4"
+    },
+    {
+      "id": "P05",
+      "nome": "Aulões Mensais",
+      "resumo": "Treino diferente, ao ar livre",
+      "detalhe": "Uma vez por mês, aulão aos domingos em local externo, pra variar e integrar a galera",
+      "opcoes": [
+        {
+          "label": "mensal",
+          "para": "alunos",
+          "preco": 0
+        }
+      ],
+      "variacoes": [],
+      "emoji": "🌳",
+      "cor": "#84CC16"
     }
   ],
   "faq": [
@@ -122,7 +122,9 @@
     }
   ],
   "regras": [
+    "Pergunte o NOME da pessoa logo nas primeiras mensagens e use o nome dela em quase toda resposta — chamar pelo nome é o que humaniza o atendimento.",
     "O objetivo número 1 é fazer a pessoa QUERER a aula experimental grátis e coletar objetivo, unidade e disponibilidade dela.",
+    "NÃO é CrossFit: o trabalho é treino FUNCIONAL + musculação, personalizado. Se perguntarem por CrossFit, explique com carinho que aqui é funcional + musculação sob medida.",
     "NÃO afirme que já agendou, não invente horário nem cite sistema/agenda: diga que o time do estúdio confirma o melhor horário da aula experimental e já entra em contato. Você captura o interesse; a confirmação é com a equipe.",
     "Descubra cedo o OBJETIVO da pessoa (emagrecer, ganhar massa, performance, reabilitação) e fale a partir dele — a venda é a transformação, não a academia.",
     "Não empurre preço no chat: o valor é apresentado na avaliação. Se insistirem, diga que depende do plano e do objetivo, e convide pra conhecer na experimental.",
@@ -142,6 +144,7 @@
     "unidade",
     "disponibilidade"
   ],
+  "conhecimento": "Studio Fit 360 é um estúdio de treino PERSONALIZADO em Belo Horizonte, com duas unidades: Barreiro (Rua Américo Magalhães 265, 3º andar) e Milionários (Av. Olinto Meireles 1574, loja 7). O método é a 'Metodologia 360': aulas dinâmicas de 50 minutos que combinam TREINO FUNCIONAL e MUSCULAÇÃO, sempre com acompanhamento de personal trainer, em ambiente acolhedor, familiar e exclusivo. NÃO é CrossFit — é treino funcional + musculação sob medida; se perguntarem por CrossFit, explique isso com carinho. Todo aluno tem apoio de fisioterapeuta e nutricionista. O agendamento é feito pelo app TREINO. Uma vez por mês tem aulão aos domingos em local externo. A primeira aula experimental é GRATUITA e sem compromisso — é o melhor jeito de conhecer. Atende todos os objetivos: massa muscular, emagrecimento, alta performance, reabilitação, melhor idade e kids. Preços e planos NÃO são divulgados no chat: são apresentados na avaliação/aula experimental, porque dependem do objetivo e do plano. A integração da agenda ainda não está ativa: a Manu captura o interesse, o objetivo e a disponibilidade, e o time do estúdio confirma o horário da experimental e entra em contato.",
   "instancia": "studio-fit-360",
   "avisar_em": "5531995478946",
   "painel": {
