@@ -208,6 +208,7 @@
     "agendamento": false
   },
   "entrega": true,
+  "sempre_audio": true,
   "ficha": [
     "cliente",
     "pet",
